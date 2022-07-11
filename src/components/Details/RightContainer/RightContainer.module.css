@@ -1,0 +1,17 @@
+.right-container {
+  width: 50%;
+  background-color: #000;
+}
+
+.right-container div h4 {
+  color: rgb(161, 161, 161);
+}
+
+.right-container div p {
+  margin: 0;
+  color: var(--mainWhite);
+}
+
+.right-container div:nth-child(2) {
+  margin: 0 200px;
+}

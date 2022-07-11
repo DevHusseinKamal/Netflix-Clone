@@ -1,0 +1,32 @@
+.options {
+  position: absolute;
+  background-color: #000;
+  border-radius: 3px;
+  top: 65px;
+  right: 50px;
+  width: 100px;
+}
+
+.options p {
+  color: var(--mainWhite);
+  font-size: 13px;
+}
+
+.options button,
+.options abbr[title] {
+  background-color: black;
+  color: var(--mainWhite);
+  border: none;
+  outline: none;
+  margin: 2px;
+  text-decoration: none !important;
+}
+
+.options button svg,
+.options abbr svg {
+  color: var(--mainRed);
+}
+
+.options button:hover {
+  opacity: 0.7;
+}

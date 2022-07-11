@@ -1,0 +1,38 @@
+.details {
+  height: 100%;
+  position: relative;
+}
+
+.btns-container button,
+.icon {
+  color: var(--mainWhite);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--mainWhite);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.icon:hover {
+  color: #f00;
+}
+
+.btns-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid var(--mainWhite);
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.btns-container button.rate {
+  font-size: 15px;
+  cursor: context-menu;
+}

@@ -1,0 +1,44 @@
+.left-container {
+  width: 50%;
+  background-color: #000;
+}
+
+.left-container .left {
+  flex-shrink: 0 !important;
+  z-index: 5;
+  box-shadow: 30px 0px 85px 50px #000, 0 30px 85px 50px #000,
+    0 -30px 85px 50px #000;
+  color: var(--mainWhite);
+  width: 30%;
+  min-width: 237px;
+  margin-left: 45px;
+}
+
+.left-container .left h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.left-container .left .type {
+  border: 1px solid #fff;
+}
+
+.left-container .left div {
+  flex-shrink: 0 !important;
+  min-width: 500px;
+}
+
+.left-container .left div.breif {
+  min-width: 350px;
+}
+
+.left-container .right {
+  width: 70%;
+}
+
+.left-container .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
